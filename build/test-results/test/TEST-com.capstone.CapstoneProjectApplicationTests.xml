@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.capstone.CapstoneProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-09T06:06:09" hostname="ip-172-31-44-23" time="3.031">
+<testsuite name="com.capstone.CapstoneProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-15T12:37:31" hostname="ip-172-31-44-23" time="3.052">
   <properties/>
-  <testcase name="contextLoads()" classname="com.capstone.CapstoneProjectApplicationTests" time="3.031"/>
-  <system-out><![CDATA[06:06:02.705 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.capstone.CapstoneProjectApplicationTests]: CapstoneProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-06:06:02.986 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.capstone.CapstoneProjectApplication for test class com.capstone.CapstoneProjectApplicationTests
+  <testcase name="contextLoads()" classname="com.capstone.CapstoneProjectApplicationTests" time="3.052"/>
+  <system-out><![CDATA[12:37:25.182 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.capstone.CapstoneProjectApplicationTests]: CapstoneProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:37:25.461 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.capstone.CapstoneProjectApplication for test class com.capstone.CapstoneProjectApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,12 +13,14 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.3)
 
-2023-11-09T06:06:04.338Z  INFO 72863 --- [    Test worker] c.c.CapstoneProjectApplicationTests      : Starting CapstoneProjectApplicationTests using Java 17.0.8.1 with PID 72863 (started by ubuntu in /home/ubuntu/.ssh/capstone_project)
-2023-11-09T06:06:04.341Z  INFO 72863 --- [    Test worker] c.c.CapstoneProjectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2023-11-09T06:06:09.291Z  INFO 72863 --- [    Test worker] c.c.CapstoneProjectApplicationTests      : Started CapstoneProjectApplicationTests in 5.859 seconds (process running for 9.091)
-2023-11-09T06:06:11.432Z  INFO 72863 --- [   scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-11-09T06:06:12.221Z  INFO 72863 --- [   scheduling-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346713f6
-2023-11-09T06:06:12.227Z  INFO 72863 --- [   scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T12:37:26.487Z  INFO 110684 --- [    Test worker] c.c.CapstoneProjectApplicationTests      : Starting CapstoneProjectApplicationTests using Java 17.0.8.1 with PID 110684 (started by ubuntu in /home/ubuntu/.ssh/capstone_project)
+2023-11-15T12:37:26.489Z  INFO 110684 --- [    Test worker] c.c.CapstoneProjectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T12:37:31.210Z  INFO 110684 --- [    Test worker] c.c.CapstoneProjectApplicationTests      : Started CapstoneProjectApplicationTests in 5.375 seconds (process running for 8.735)
+2023-11-15T12:37:32.789Z  INFO 110684 --- [   scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T12:37:33.595Z  INFO 110684 --- [   scheduling-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346713f6
+2023-11-15T12:37:33.603Z  INFO 110684 --- [   scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+동광요양병원
+좋은이웃요양병원
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
